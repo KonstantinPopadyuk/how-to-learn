@@ -335,6 +335,8 @@
   flex-basis: 711px;
   min-height: 250px;
   position: relative;
+  display: flex;
+  flex-direction: row;
 }
 
 .footer__author {
@@ -347,15 +349,6 @@
   font-size: 18px;
   font-weight: normal;
   text-decoration: none;
-}
-.footer__column {
-  display: flex;
-  flex-direction: row;
-}
-
-.footer__column-links {
-  display: flex;
-  flex-direction: column;
 }
 
 .footer__column-heading {
@@ -372,6 +365,8 @@
   font-size: 18px;
   font-weight: normal;
   text-decoration: none;
+  display: flex;
+  flex-direction: column;
 }
 
 .footer__column-links_margin {
