@@ -32,27 +32,27 @@
         <p class="section-subtitle">Пять практик от Барбары Оакли</p>
         <div class="cards">
           <div class="cards__item">
-            <div class="cards__image"></div>
+            <img class="cards__image" src="./images/sprint-2-sources/images_sprint-2/cards-attention.png" alt="фото книги о внимании">
             <h4 class="cards__title">Два вида внимания</h4>
             <p class="cards__description">Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление.</p>
           </div>
           <div class="cards__item">
-            <div class="cards__image"></div>
+            <img class="cards__image" src="./images/sprint-2-sources/images_sprint-2/cards-recall.png" alt="фото вспоминающего мальчика">
             <h4 class="cards__title">Recall</h4>
             <p class="cards__description">Вспоминайте изученное — это позволит соединить разрозненные порции памяти.</p>
           </div>
           <div class="cards__item">
-            <div class="cards__image"></div>
+            <img class="cards__image" src="./images/sprint-2-sources/images_sprint-2/cards-interliving.png" alt="фото о навыках">
             <h4 class="cards__title">Интерливинг</h4>
             <p class="cards__description">Изучайте несколько навыков одновременно, они обогащают друг друга.</p>
           </div>
           <div class="cards__item">
-            <div class="cards__image"></div>
+            <img class="cards__image" src="./images/sprint-2-sources/images_sprint-2/cards-question.png" alt="хорошие вопросы">
             <h4 class="cards__title">Вопросы</h4>
             <p class="cards__description">Слушая преподавателя, придумывайте хороший вопрос, который вас действительно волнует.</p>
           </div>
           <div class="cards__item">
-            <div class="cards__image"></div>
+            <img class="cards__image" src="./images/sprint-2-sources/images_sprint-2/cards-competence.png" alt="компететность">
             <h4 class="cards__title">Иллюзия компетентности</h4>
             <p class="cards__description">Повторите про себя, запишите, расскажите другу: вам только кажется, что вы владеете новой темой.</p>
           </div>
@@ -63,8 +63,13 @@
       <section class="video">
         <h2 class="section-title">Видео на TED</h2>
         <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
-        <iframe width="515" height="316" src="https://www.youtube.com/embed/arj7oStGLkU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <iframe width="515" height="316" src="https://www.youtube.com/embed/5MgBikgcWnY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="video__iframes video__iframes_moved">
+          <div class="video__iframes">
+            <iframe class="video__iframe" width="515" height="316" src="https://www.youtube.com/embed/arj7oStGLkU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="video__iframe" width="515" height="316" src="https://www.youtube.com/embed/5MgBikgcWnY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+
       </section>
 
       <section class="oakley">
@@ -78,7 +83,7 @@
       <section class="feynman">
         <h2 class="feynman__title">Метод Фейнмана</h2>
         <p class="feynman__subtitle">Выучить и не забыть</p>
-        <a href="#" target="_blank" class="feynman__link">Подробнее&xrarr;</a>
+        <a href="https://ru.wikipedia.org/wiki/Диаграммы_Фейнмана" target="_blank" class="feynman__link">Подробнее&xrarr;</a>
         <img src="./images/feynman.png" alt="господин фейнман" class="feynman__photo">
       </section>
 
@@ -132,7 +137,7 @@
           <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
           <div class="khan__book-container">
             <div class="khan__book-pic"></div>
-            <div class="khan__buy-link">Купить книгу&xrarr;</div>
+            <a href="https://www.labirint.ru/books/483575/" class="khan__buy-link">Купить книгу&xrarr;</a>
           </div>
         </div>
       </section>
@@ -188,7 +193,13 @@
       <section class="resources">
         <h2 class="section-title">Полезные ресурсы</h2>
         <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
-      </section>
+        <div class="resources__logo-zone">
+          <a href="https://arzamas.academy/" target="_blank" class="resources__logo resources__logo_image_arzamas"></a>
+          <a href="https://nplus1.ru/" target="_blank" class="resources__logo resources__logo_image_n1"></a>
+          <a href="https://strelka.com/ru" target="_blank" class="resources__logo resources__logo_image_strelka"></a>
+          <a href="https://polka.academy/" target="_blank" class="resources__logo resources__logo_image_polka"></a>
+        </div>
+        </section>
     </main>
     <footer class="footer">
       <div class="footer__columns">

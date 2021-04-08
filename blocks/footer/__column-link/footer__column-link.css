@@ -6,4 +6,9 @@
   text-decoration: none;
   display: flex;
   flex-direction: column;
+  transition: opacity .5s ease;
+}
+
+.footer__column-link:hover {
+  opacity: .5;
 }
