@@ -1,0 +1,10 @@
+.footer__social-icon_image_in{
+  flex-direction: row;
+}
+
+.footer__social-icon_image_in::before {
+  content: url(../../../../images/instagram_color_white.svg);
+  height: 16px;
+  width: 16px;
+  padding-right: 10px;
+}

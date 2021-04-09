@@ -36,7 +36,9 @@
 @import url(../blocks/footer/__columns/footer__columns.css);
 @import url(../blocks/footer/__social/footer__social.css);
 @import url(../blocks/footer/__social-icon/footer__social-icon.css);
-@import url(../blocks/footer/__social-icon/_image/footer__social-icon_image.css);
+@import url(../blocks/footer/__social-icon/_image/footer__social-icon_image_fb.css);
+@import url(../blocks/footer/__social-icon/_image/footer__social-icon_image_in.css);
+@import url(../blocks/footer/__social-icon/_image/footer__social-icon_image_vk.css);
 @import url(../blocks/footer/__author/footer_author.css);
 @import url(../blocks/footer/__column-heading/footer__column-heading.css);
 

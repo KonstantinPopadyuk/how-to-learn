@@ -1,0 +1,10 @@
+.footer__social-icon_image_vk{
+  flex-direction: row;
+}
+
+.footer__social-icon_image_vk::before {
+  content: url(../../../../images/vk_color_white.svg);
+  height: 16px;
+  width: 16px;
+  padding-right: 10px;
+}

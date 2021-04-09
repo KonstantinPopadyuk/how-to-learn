@@ -1,0 +1,10 @@
+.footer__social-icon_image_fb{
+  flex-direction: row;
+}
+
+.footer__social-icon_image_fb::before {
+  height: 16px;
+  width: 16px;
+  padding-right: 10px;
+  content: url(../../../../images/facebook_color_white.svg);
+}
